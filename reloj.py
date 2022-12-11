@@ -26,3 +26,22 @@ import datetime
 #%Y - Numero de año entero (2014)
 #%Z - Zona horaria
 
+x = datetime.datetime.now()
+print("reloj de horas minutos y segundos: ")
+
+print ("Hora = %s" %x.hour)
+print ("Minutos = %s" %x.minute)
+print ("Segundos =  %s" %x.second)
+print ("Formato hh:mm:ss = %s:%s:%s" % (x.hour, x.month, x.second))
+
+#ejemplo de lo que devolverá esta función:
+#Hora = 12
+#Minutos = 10
+#Segundos = 50
+
+print ("Formato hh:mm:ss = %s:%s:%s" % (x.hour, x.month, x.second))
+
+#esta función devolverá lo mismo pero en otro formato
+#ejemplo de lo que devolverá esta función:
+#Formato hh:mm:ss = 12:10:50
+
